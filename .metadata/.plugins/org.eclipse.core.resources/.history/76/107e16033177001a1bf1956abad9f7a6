@@ -1,0 +1,65 @@
+package com.aga.pojo;
+
+import java.util.Set;
+
+import javax.persistence.CascadeType;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.ManyToOne;
+
+public class Books {
+
+	@Id
+	@GeneratedValue
+	private Integer bookNo;
+	private String bookName;
+	private String isbn;
+	
+	@ManyToOne(cascade = CascadeType.ALL)
+	private Set<Authors> authors;
+	
+	public Books() {
+		
+	}
+
+	public Books(String bookName, String isbn, Authors author) {
+		super();
+		this.bookName = bookName;
+		this.isbn = isbn;
+		this.authors = author;
+	}
+
+	public Integer getBookNo() {
+		return bookNo;
+	}
+
+	public void setBookNo(Integer bookNo) {
+		this.bookNo = bookNo;
+	}
+
+	public String getBookName() {
+		return bookName;
+	}
+
+	public void setBookName(String bookName) {
+		this.bookName = bookName;
+	}
+
+	public String getIsbn() {
+		return isbn;
+	}
+
+	public void setIsbn(String isbn) {
+		this.isbn = isbn;
+	}
+
+	public Set<Authors> getAuthors() {
+		return authors;
+	}
+
+	public void setAuthors(Set<Authors> authors) {
+		this.authors = authors;
+	}
+	
+	
+}

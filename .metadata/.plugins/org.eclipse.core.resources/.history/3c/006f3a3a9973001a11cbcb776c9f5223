@@ -1,0 +1,48 @@
+package com.aga;
+
+import org.hibernate.HibernateException;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.AnnotationConfiguration;
+
+public class StudentTestMto1 {
+
+	public static void main(String[] args) {
+		// Configure the db using xml file
+		SessionFactory sf = null;
+		Session session = null;
+		Transaction tx = null;
+		
+		try {
+			sf = new AnnotationConfiguration().configure("hibernate.cfg.xml").buildSessionFactory();
+			session = sf.openSession();
+			tx = session.beginTransaction();
+			
+			AddressMto1 add1 = new AddressMto1("23, Laxmi Nagar","Jaipur","Rajasthan", "302012");
+			AddressMto1 add2 = new AddressMto1("202, Dadu Mandir","Hissar","Haryana", "590001");
+			
+			StudentMto1 s1 = new StudentMto1();
+			s1.setStudentName("RAKESH KEDIA");
+			
+			s1.getAddress().add(add1);
+			s1.getAddress().add(add2);
+			
+			add1.setStudent(s1);
+			add2.setStudent(s1);
+			
+			session.save(s1);
+			session.save(add1);
+			session.save(add2);
+			
+			tx.commit();
+			session.close();
+			sf.close();
+			
+		} catch (HibernateException e) {
+			//tx.rollback();
+			e.printStackTrace();
+		}
+	}
+
+}

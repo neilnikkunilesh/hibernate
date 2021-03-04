@@ -1,0 +1,31 @@
+package com.aga.Dao;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.AnnotationConfiguration;
+
+import com.aga.pojo.Authors;
+import com.aga.pojo.Books;
+
+public class BookAuthorInsertDataTest {
+
+	public static void main(String[] args) {
+		
+		SessionFactory sf = null;
+		Session session = null;
+		Transaction tx = null;
+		
+		try {
+			sf = new AnnotationConfiguration().configure("hibernate.cfg.xml").buildSessionFactory();
+			session = sf.openSession();
+			tx = session.beginTransaction();
+			
+			Authors author1 = new Authors("Devesh Gupta","Barkat nagar", "deveshguptajpr@gmail.com");
+			Books book1 = new Books("Core Java","555-444-222");
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.aga.OneClassTwoDiffTable&apos; to &apos;com.aga&apos;&#x0D;&#x0A;- Original project: &apos;OneClassTwoDiffTable&apos;&#x0D;&#x0A;- Original element: &apos;OneClassTwoDiffTable/src/main/java/com.aga.OneClassTwoDiffTable&apos;&#x0D;&#x0A;- Renamed element: &apos;OneClassTwoDiffTable/src/main/java/com.aga&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.aga.OneClassTwoDiffTable&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java&lt;com.aga.OneClassTwoDiffTable" name="com.aga" qualified="false" references="true" stamp="1585289618835" textual="false" version="1.0"/>
+</session>

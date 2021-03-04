@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+      "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+      "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+          <!-- Hibernate uses the hibernate.cfg.xml file to create the connection and setup the 
+          required enviroment. This file provide info about database connection-->
+<hibernate-configuration>
+	<session-factory>
+		<!-- Database connection settings with MySql -->
+		<property name="connection.dirver_class">com.mysql.jdbc.Driver</property>
+		<property name="connection.url">jdbc:mysql://localhost:3306/hibernatedb</property>
+		<property name="connection.username">root</property>
+		<property name="connection.password">nilesh</property>
+		
+		<!-- MySql Dialect -->
+		<property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
+		
+		<!-- JDBC connection pool (use the build-in) -->
+		<property name="connection.pool_size">1</property>
+		
+		<!-- Echo all executed SQL to stdout -->
+		<property name="show_sql">true</property>
+		
+		<!-- Drop and re-create the database schema on startup -->
+		<property name="bhm2ddl.auto">update</property>
+		
+		<!-- Mapping Resource -->
+		<!-- NOTE: hibernate.hbn2ddl.auto automatically validates or exports schema DDL to the database when the
+		SessionFactory is created. It will create schema on sessionfactory object create and drop the DB when session is close-->
+		
+		<mapping class="com.aga.pojo.Books"></mapping>
+		<mapping class="com.aga.pojo.Authors"></mapping>
+		<!-- <mapping resource="message.hbm.xml"></mapping> -->
+	</session-factory>
+</hibernate-configuration>

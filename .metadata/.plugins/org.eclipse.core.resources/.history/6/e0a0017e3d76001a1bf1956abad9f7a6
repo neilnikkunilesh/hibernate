@@ -1,0 +1,84 @@
+/* 
+ 	List: query result is a list of collection
+ 		SELECT new list(m.messageId, m.SenderName, m.sendDate) FROM MessageSQL m;
+ 		
+ 	Map: to map the key for each property, the AS keyword is used. The query result is a map of collection.
+ 		SELECT new map(m.messageId AS MsgID, m.senderName AS SenderName, m.sendDate AS SendDate) FROM MessageSQL m;
+ */
+
+package com.aga;
+
+import java.util.Date;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
+
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.AnnotationConfiguration;
+
+public class MessageHQLWhereTest {
+	
+	public static void main(String[] args) {
+		SessionFactory sf = null;
+		Session session = null;
+		Transaction tx = null;
+		String query = null;
+		
+		try {
+				// config the db details
+				sf = new AnnotationConfiguration().configure("hibernate.cfg.xml").buildSessionFactory();
+				//get the session using session factory object
+				session = sf.openSession();
+				tx = session.beginTransaction();
+				
+				session = sf.openSession();
+				query = "SELECT m.messageId, m.senderName, m.sendDate FROM MessageSQL m";
+				Query q = session.createQuery(query);
+				
+				// get List from Query
+				List<Object[]> list = q.list();
+				
+				
+				System.out.println("MessageID	SenderName		SendDate");
+				for(Object[] obj : list) {
+					System.out.print(obj[0]+"		");
+					System.out.print(obj[1]+"		");
+					System.out.print(obj[2]+"		");
+					
+					System.out.println();
+				}
+				
+				System.out.println("-----------------------------Aggregate Function OUTPUT---------------------------------------");
+				
+				Query count_query= session.createQuery("SELECT COUNT(m) FROM MessageSQL m");
+				List<Object> ll = count_query.list();
+				System.out.println("Total No of Messages: "+ll.get(0));
+				
+				/*
+				 	We can use the DISTINCT keyword followed by the expression as an argument to an aggregate function specifying
+				 	that duplicate values are to be eliminate before the aggregate function is applied.
+				 	NOTE: Null values are eliminated before the aggregate function is applied.
+				 */
+				Query count_query_distinct= session.createQuery("SELECT COUNT(DISTINCT  m.senderName) FROM MessageSQL m");
+				System.out.println("Total No of Messages: "+count_query_distinct.list().get(0));
+				
+				Query min_query= session.createQuery("SELECT MIN(m.messageId) FROM MessageSQL m");
+				System.out.println("Total No of Messages: "+min_query.list().get(0));
+				
+				Query max_query= session.createQuery("SELECT MAX(m.messageId) FROM MessageSQL m");
+				System.out.println("Total No of Messages: "+max_query.list().get(0));
+				
+				session.close();
+				sf.close();
+		} catch (Exception e) {
+			tx.rollback();
+			e.printStackTrace();
+		}
+		
+
+	}
+
+}

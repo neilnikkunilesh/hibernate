@@ -1,0 +1,77 @@
+/* 
+ 	List: query result is a list of collection
+ 		SELECT new list(m.messageId, m.SenderName, m.sendDate) FROM MessageSQL m;
+ 		
+ 	Map: to map the key for each property, the AS keyword is used. The query result is a map of collection.
+ 		SELECT new map(m.messageId AS MsgID, m.senderName AS SenderName, m.sendDate AS SendDate) FROM MessageSQL m;
+ */
+
+package com.aga;
+
+import java.util.Date;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
+
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.AnnotationConfiguration;
+
+public class MessageHQLSelectResultInCollectionTest {
+	
+	public static void main(String[] args) {
+		SessionFactory sf = null;
+		Session session = null;
+		Transaction tx = null;
+		String query = null;
+		
+		try {
+				// config the db details
+				sf = new AnnotationConfiguration().configure("hibernate.cfg.xml").buildSessionFactory();
+				//get the session using session factory object
+				session = sf.openSession();
+				tx = session.beginTransaction();
+				
+				session = sf.openSession();
+				query = "SELECT NEW map( m.messageId AS MsgID, m.senderName AS SenderName, m.sendDate AS Date) FROM MessageSQL m";
+				Query q = session.createQuery(query);
+				
+				// get List from Query
+				List results = q.list();
+				
+				System.out.println("MessageID	SenderName		SendDate");
+				for(Object obj : results) {
+					HashMap ca = (HashMap) obj;
+					System.out.print(ca.get("MsgID")+"		");
+					System.out.print(ca.get("SenderName")+"		");
+					System.out.print(ca.get("Date")+"		");
+					
+					System.out.println();
+				}
+				
+				System.out.println("-----------------------------------using list---------------------------------");
+				
+				Query ql= session.createQuery("SELECT NEW map( m.messageId, m.senderName, m.sendDate) FROM MessageSQL m");
+				List ll = ql.list();
+				
+				System.out.println("MessageID	SenderName		SendDate");
+				for(Object ob : ll) {
+					List list = (List) ob;
+					System.out.print(list.get(0)+"		");
+					System.out.print(list.get(1)+"		");
+					System.out.print(list.get(2)+"		");
+					
+					System.out.println();
+				}
+				sf.close();
+		} catch (Exception e) {
+			tx.rollback();
+			e.printStackTrace();
+		}
+		
+
+	}
+
+}

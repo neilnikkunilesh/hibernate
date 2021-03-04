@@ -1,0 +1,150 @@
+/*	
+ * @author Nilesh Gupta
+ * @version 1.0
+ * @since 26--3-2020
+ * 
+ * HB Support following Joins:
+ * 	1.	Inner Join
+ * 	2.	Left Outer Join
+ * 	3.	Right Outer Join
+ * 
+ * 	
+ * */
+package com.aga.Dao;
+
+import java.util.List;
+
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.AnnotationConfiguration;
+
+import com.aga.pojo.Authors;
+import com.aga.pojo.Books;
+
+public class QueryInterfaceTest {
+	public static void main(String[] args) {
+		SessionFactory sf = null;
+		Session session	=	null;
+		Transaction tx	=	null;
+		
+		try {
+			sf	=	new	AnnotationConfiguration().configure("hibernate.cfg.xml").buildSessionFactory();
+			session = sf.openSession();
+			tx	=	session.beginTransaction();
+			/*
+			 	1.	INNER JOIN:
+			 					The INNER JOIN is used in situation where two tables having common columns needs to be joined.
+			 					This is the default join type. If a join type is not specified.
+			 				e.g.: FROM Books b JOIN b.authors
+			 				(both table have AuthorNo as a common column. This will give the result of the join those rows form both
+			 				tables where the AuthrosNo is the same for each table)
+			 			NOTE: The result of this join will not include those rows with null AuthorNo
+			 */
+				System.out.println("------------------------- INNER JOIN -------------------------");
+				// Implicit join, the result contains a list of books objects only since no JOIN is specified in the FROM Clause.
+				
+				Query q	= session.createQuery("FROM Books b JOIN b.authors");
+				List<Object[]> list = q.list();
+				
+				for(Object[] book : list) {
+					  Books b = (Books)book[0];
+					  Authors a = (Authors)book[1];
+					  if(b!=null) {
+						  System.out.print(b.getBookNo()+"		");
+						  System.out.print(b.getBookName()+"		");
+						  System.out.print(b.getIsbn()+"		");
+						  System.out.print(b.getAuthors().getAuthorNo()+"		");
+						  System.out.print(b.getAuthors().getAuthorName()+"		");
+						  System.out.print(b.getAuthors().getAddress()+"		");
+						  System.out.print(b.getAuthors().getEmail()+"		");
+						  
+						  System.out.println();
+					  }
+					  
+				  }
+						
+			
+				System.out.println("------------------------- LEFT OUTER JOIN -------------------------");
+				/*
+				 * 2.	LEFT OUTER JOIN:
+				 	The LEFT OUTER JOIN is designed to join tables that have common column between them, The result of the join is
+				 	rows of the join is rows containing value from both the tables matched on the common column.
+				 	Rows in the source table that do not match a row in the joined table are also included in the result.
+				 	The values for the joined table in these unmatched rows have null value.
+				 	
+				 	The LEFT part of the clause says that the table on the left is the source table and all of its rows 
+				 	are included in the result regardless of a match.
+				 	
+				 	e.g.: FROM Books b LEFT OUTER JOIN b.authors
+				 */
+				
+				Query explictQuery= session.createQuery("FROM Books b LEFT OUTER JOIN b.authors");
+				List<Object[]> explicitList = explictQuery.list();
+				
+				for(Object[] book : explicitList) {
+					  Books b = (Books)book[0];
+					  Authors a = (Authors)book[1];
+					  if(b!=null) {
+						  System.out.print(b.getBookNo()+"		");
+						  System.out.print(b.getBookName()+"		");
+						  System.out.print(b.getIsbn()+"		");
+						  if(b.getAuthors() !=null) {
+							  System.out.print(b.getAuthors().getAuthorNo()+"		");
+							  System.out.print(b.getAuthors().getAuthorName()+"		");
+							  System.out.print(b.getAuthors().getAddress()+"		");
+							  System.out.print(b.getAuthors().getEmail()+"		");
+						  }else {
+							  System.out.print("null"+"		");
+							  System.out.print("null"+"		");
+							  System.out.print("null"+"		");
+							  System.out.print("null"+"		");
+						  }
+						  System.out.println();
+					  }
+					  
+				  }
+				
+				System.out.println("------------------------- RIGHT OUTER JOIN -------------------------");
+				/*
+				 * 3.	RIGHT OUTER JOIN:
+				 						It has the same functionality as the LEFT OUTER JOIN.
+				 						But the only diff is that the table on the right is the source and all of its rows
+				 						[that do not match a row in the joined table] are included in the result.
+				 	
+				 	e.g.: FROM Authores a RIGHT OUTER JOIN a.bookeses
+				 */
+				
+				Query rightQuery= session.createQuery("FROM Books b RIGHT OUTER JOIN b.authors");
+				List<Object[]> rightList = rightQuery.list();
+				
+				for(Object[] book : explicitList) {
+					  Books b = (Books)book[0];
+					  Authors a = (Authors)book[1];
+					  if(b!=null) {
+						  System.out.print(b.getBookNo()+"		");
+						  System.out.print(b.getBookName()+"		");
+						  System.out.print(b.getIsbn()+"		");
+						  if(b.getAuthors() !=null) {
+							  System.out.print(b.getAuthors().getAuthorNo()+"		");
+							  System.out.print(b.getAuthors().getAuthorName()+"		");
+							  System.out.print(b.getAuthors().getAddress()+"		");
+							  System.out.print(b.getAuthors().getEmail()+"		");
+						  }else {
+							  System.out.print("null"+"		");
+							  System.out.print("null"+"		");
+							  System.out.print("null"+"		");
+							  System.out.print("null"+"		");
+						  }
+						  System.out.println();
+					  }
+					  
+				  }
+			
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+	}
+}

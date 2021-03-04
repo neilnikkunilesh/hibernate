@@ -1,0 +1,94 @@
+/* 
+ 	NOTE: by default, the order is ascending.
+ 	
+ 	The Ordering can be specified on more than one property in the query such as.
+ 	FROM MessageSQL m ORDER BY m.messageId, m.senderName ASC
+ 	
+ 	A query that return aggregated values can be grouped by any property of a returned class or components:
+ 		
+ 		SELECT COUNT(m.senderName) FROM 
+ */
+
+package com.aga;
+
+import java.util.Date;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
+
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.AnnotationConfiguration;
+
+public class MessageHQLUpdateTest {
+	
+	public static void main(String[] args) {
+		SessionFactory sf = null;
+		Session session = null;
+		Transaction tx = null;
+		String query = null;
+		
+		try {
+				// config the db details
+				sf = new AnnotationConfiguration().configure("hibernate.cfg.xml").buildSessionFactory();
+				//get the session using session factory object
+				session = sf.openSession();
+				tx = session.beginTransaction();
+				
+				session = sf.openSession();
+				query = "SELECT m.messageId, m.senderName, COUNT(*) FROM MessageSQL m GROUP BY m.sendDate";
+				Query q = session.createQuery(query);
+				
+				// get List from Query
+				List<Object[]> list = q.list();
+				
+				System.out.println("-----------------------------Use of Group By Clause---------------------------------------");
+				System.out.println("MessageID	SenderName");
+				for(Object[] obj : list) {
+					System.out.print(obj[0]+"		");
+					System.out.print(obj[1]+"		");
+					
+					System.out.println();
+				}
+				
+				System.out.println("-----------------------------Order By operator---------------------------------------");
+				
+				Query order_query= session.createQuery("FROM  MessageSQL m ORDER BY m.sendDate DESC, m.senderName ASC ");
+				List<MessageSQL> order = order_query.list();
+				System.out.println("MessageID	MessageText		SenderName		SendDate");
+				for(MessageSQL obj : order) {
+					System.out.print(obj.getMessageId()+"		");
+					System.out.print(obj.getMessageText()+"		");
+					System.out.print(obj.getSenderName()+"		");
+					System.out.print(obj.getSendDate()+"		");
+					
+					System.out.println();
+				}
+				
+System.out.println("-----------------------------Use of Having operator---------------------------------------");
+				
+				Query haning_query= session.createQuery("SELECT m.sendDate, COUNT(*) FROM  MessageSQL m ORDER BY m.sendDate DESC "
+						+ "HAVING m.sendDate > '2019-12-04 02:10:50' ");
+				List<Object[]> having = haning_query.list();
+				System.out.println("SendDate		Count");
+				for(Object obj : having) {
+					Object[] ca = (Object[])obj;
+					System.out.print(ca[0]+"		");
+					System.out.print(ca[1]+"		");
+					
+					System.out.println();
+				}
+				
+				session.close();
+				sf.close();
+		} catch (Exception e) {
+			tx.rollback();
+			e.printStackTrace();
+		}
+		
+
+	}
+
+}

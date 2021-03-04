@@ -1,0 +1,109 @@
+/* 
+ 	Using Unique Identifier:
+ 		HQL provides a special property called id which can be used to reference the unique identifier of an object such as.
+ 		
+ 		SELECT m.messageId, m.senderName, m.sendDate FROM MessageSQL m WHERE m.id = 3
+ 		
+ 		This will be equivalent to the following HQL query:
+ 		SELECT m.messageId, m.senderName, m.sendDate FROM MessageSQL m WHERE m.messageId = 3
+ */
+
+package com.aga;
+
+import java.util.Date;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
+
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.AnnotationConfiguration;
+
+public class MessageHQLInsertIntoTest {
+	
+	public static void main(String[] args) {
+		SessionFactory sf = null;
+		Session session = null;
+		Transaction tx = null;
+		String query = null;
+		
+		try {
+				// config the db details
+				sf = new AnnotationConfiguration().configure("hibernate.cfg.xml").buildSessionFactory();
+				//get the session using session factory object
+				session = sf.openSession();
+				tx = session.beginTransaction();
+				
+				session = sf.openSession();
+				query = "SELECT m.messageId, m.senderName, m.sendDate FROM MessageSQL m WHERE m.messageId > 2";
+				Query q = session.createQuery(query);
+				
+				// get List from Query
+				List<Object[]> list = q.list();
+				
+				System.out.println("-----------------------------Use of Where Clause---------------------------------------");
+				System.out.println("MessageID	SenderName		SendDate");
+				for(Object[] obj : list) {
+					System.out.print(obj[0]+"		");
+					System.out.print(obj[1]+"		");
+					System.out.print(obj[2]+"		");
+					
+					System.out.println();
+				}
+				
+				System.out.println("-----------------------------Use of like operator---------------------------------------");
+				
+				Query like_query= session.createQuery("SELECT m.messageId, m.senderName, m.sendDate FROM MessageSQL m "
+						+ "WHERE m.senderName like '%Kot%'");
+				List<Object[]> like = like_query.list();
+				System.out.println("MessageID	SenderName		SendDate");
+				for(Object[] obj : like) {
+					System.out.print(obj[0]+"		");
+					System.out.print(obj[1]+"		");
+					System.out.print(obj[2]+"		");
+					
+					System.out.println();
+				}
+				
+				// use of HQL id property which can be used to reference the unique identifier of an object
+				System.out.println("-----------------------------Use of ID propery of HQL ---------------------------------------");
+				
+				Query id_query= session.createQuery("SELECT m.messageId, m.senderName, m.sendDate FROM MessageSQL m "
+						+ "WHERE m.id =4");
+				List<Object[]> id = id_query.list();
+				System.out.println("MessageID	SenderName		SendDate");
+				for(Object[] obj : id) {
+					System.out.print(obj[0]+"		");
+					System.out.print(obj[1]+"		");
+					System.out.print(obj[2]+"		");
+					
+					System.out.println();
+				}
+				
+System.out.println("-----------------------------Use of IN operator of HQL ---------------------------------------");
+				
+				Query in_query= session.createQuery("SELECT m.messageId, m.senderName, m.sendDate FROM MessageSQL m "
+						+ "WHERE m.senderName IN ('Kinson Black','Rajesh Kotil')");
+				List<Object[]> in = in_query.list();
+				System.out.println("MessageID	SenderName		SendDate");
+				for(Object[] obj : in) {
+					System.out.print(obj[0]+"		");
+					System.out.print(obj[1]+"		");
+					System.out.print(obj[2]+"		");
+					
+					System.out.println();
+				}
+				
+				session.close();
+				sf.close();
+		} catch (Exception e) {
+			tx.rollback();
+			e.printStackTrace();
+		}
+		
+
+	}
+
+}

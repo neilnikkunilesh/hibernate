@@ -1,0 +1,2 @@
+INDEX VERSION 1.4+E:\workspaces\eclipsejee2019-06-hibernate\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2311338109.index

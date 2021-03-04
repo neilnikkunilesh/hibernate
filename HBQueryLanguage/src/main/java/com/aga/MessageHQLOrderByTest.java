@@ -1,0 +1,79 @@
+/* 
+ 	In memory entities will not be updated to reflect changes resulting form issuing UPDATE statement.
+ 	Object can be given an alias name to abbreviate reference to specific objects or their properties.
+ 	and must be used when property names used in the query would otherwise be ambiguous.
+ 	
+ 	UPDATE MessageSQL m SET m.senderName = :newName WHERE m.senderName = :oldName
+ */
+
+package com.aga;
+
+import java.util.Date;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
+
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.AnnotationConfiguration;
+
+public class MessageHQLOrderByTest {
+	
+	public static void main(String[] args) {
+		SessionFactory sf = null;
+		Session session = null;
+		Transaction tx = null;
+		String query = null;
+		
+		try {
+				// config the db details
+				sf = new AnnotationConfiguration().configure("hibernate.cfg.xml").buildSessionFactory();
+				//get the session using session factory object
+				session = sf.openSession();
+				tx = session.beginTransaction();
+				
+				session = sf.openSession();
+				query = "SELECT m.messageId, m.senderName, COUNT(*) FROM MessageSQL m GROUP BY m.sendDate";
+				Query q = session.createQuery(query);
+				
+				// get List from Query
+				List<Object[]> list = q.list();
+				
+				System.out.println("-----------------------------Use of Group By Clause---------------------------------------");
+				System.out.println("MessageID	SenderName");
+				for(Object[] obj : list) {
+					System.out.print(obj[0]+"		");
+					System.out.print(obj[1]+"		");
+					
+					System.out.println();
+				}
+				
+				System.out.println("-----------------------------Order By operator---------------------------------------");
+				
+				Query order_query= session.createQuery("FROM  MessageSQL m ORDER BY m.sendDate DESC, m.senderName ASC ");
+				List<MessageSQL> order = order_query.list();
+				System.out.println("MessageID	MessageText		SenderName		SendDate");
+				for(MessageSQL obj : order) {
+					System.out.print(obj.getMessageId()+"		");
+					System.out.print(obj.getMessageText()+"		");
+					System.out.print(obj.getSenderName()+"		");
+					System.out.print(obj.getSendDate()+"		");
+					
+					System.out.println();
+				}
+				
+
+				
+				session.close();
+				sf.close();
+		} catch (Exception e) {
+			tx.rollback();
+			e.printStackTrace();
+		}
+		
+
+	}
+
+}

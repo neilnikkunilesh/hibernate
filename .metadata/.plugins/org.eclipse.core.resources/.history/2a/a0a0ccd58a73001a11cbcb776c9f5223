@@ -1,0 +1,45 @@
+package com.aga;
+
+import org.hibernate.HibernateException;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.AnnotationConfiguration;
+
+public class StudentTestLink {
+
+	public static void main(String[] args) {
+		// Configure the db using xml file
+		SessionFactory sf = null;
+		Session session = null;
+		Transaction tx = null;
+		
+		try {
+			sf = new AnnotationConfiguration().configure("hibernate.cfg.xml").buildSessionFactory();
+			session = sf.openSession();
+			tx = session.beginTransaction();
+			
+			Address1toM add1 = new Address1toM("23, Laxmi Nagar","Jaipur","Rajasthan", "302012");
+			//Address add2 = new Address("202, Dadu Mandir","Hissar","Haryana", "590001");
+			
+			Student1toM s1 = new Student1toM("RAKESH KEDIA", add1);
+			//Student121 s2 = new Student121();
+			
+			session.save(s1);
+			tx.commit();
+			session.close();
+			//session.save(s2);
+			/* In Unidirectional approach obtaining AddressExplicit from StudentExplicit is possible
+			 * but Obtaining StudentExplicit from AddressExplicit is not possible. This is possible
+			 * only  in Bidirectional approach.Show below code:
+			 * */
+			 
+			sf.close();
+			
+		} catch (HibernateException e) {
+			//tx.rollback();
+			e.printStackTrace();
+		}
+	}
+
+}

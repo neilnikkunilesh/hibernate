@@ -1,0 +1,78 @@
+package com.aga;
+
+import javax.persistence.CascadeType;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
+import javax.persistence.OneToOne;
+import javax.persistence.PrimaryKeyJoinColumn;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "Student1toM")
+public class Student1toM {
+
+	@Id
+	@GeneratedValue
+	@Column(name = "studentId")
+	private long studentId;
+	
+	@Column(name = "studentName", length = 100, nullable = false)
+	private String studentName;
+	
+	@OneToOne(cascade = CascadeType.ALL)
+	@JoinTable(name = "STUDENTLINK_ADDRESSLINK", joinColumns = @JoinColumn(name = "STUDENT_FK"),
+								inverseJoinColumns = @JoinColumn(name = "ADDRESS_FK"))
+	// if do not mentioned a foreign key column name then by default address_ADDRESS_ID
+	private Address1toM addressLink;
+
+	public Student1toM() {
+		
+	}
+
+
+	public Student1toM(String studentName, Address1toM addressLink) {
+		super();
+		this.studentName = studentName;
+		this.addressLink = addressLink;
+	}
+
+
+
+
+
+	public long getStudentId() {
+		return studentId;
+	}
+
+	public void setStudentId(long studentId) {
+		this.studentId = studentId;
+	}
+
+	public String getStudentName() {
+		return studentName;
+	}
+
+	public void setStudentName(String studentName) {
+		this.studentName = studentName;
+	}
+
+
+	public Address1toM getAddressLink() {
+		return addressLink;
+	}
+
+
+	public void setAddressLink(Address1toM addressLink) {
+		this.addressLink = addressLink;
+	}
+	
+
+	
+	
+	
+	
+}

@@ -1,0 +1,1816 @@
+!SESSION 2020-04-03 19:53:31.878 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=1.8.0_241
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+This is a continuation of log file E:\eclipsejee2019-06-hibernate\.metadata\.bak_0.log
+Created Time: 2020-04-05 18:43:23.230
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-05 18:43:23.232
+!MESSAGE classpath=72 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-05 18:43:23.240
+!MESSAGE buffering callback sts4.classpath.VAaPUxZv HibernateHelloMessageBy-MySql-XML false 72
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-05 18:43:23.240
+!MESSAGE Preparing classpath changed notification InheritanceClassHierarchy
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-05 18:43:23.250
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-05 18:43:23.250
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-05 18:43:23.260
+!MESSAGE buffering callback sts4.classpath.VAaPUxZv InheritanceClassHierarchy false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-05 18:43:23.260
+!MESSAGE Preparing classpath changed notification ManyToMany
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-05 18:43:23.270
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-05 18:43:23.270
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-05 18:43:23.280
+!MESSAGE buffering callback sts4.classpath.VAaPUxZv ManyToMany false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-05 18:43:23.285
+!MESSAGE Preparing classpath changed notification OneClassTwoDiffTable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-05 18:43:23.290
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-05 18:43:23.300
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-05 18:43:23.300
+!MESSAGE buffering callback sts4.classpath.VAaPUxZv OneClassTwoDiffTable false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-05 18:43:23.310
+!MESSAGE Preparing classpath changed notification OneToManyOrM2One
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-05 18:43:23.315
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-05 18:43:23.320
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-05 18:43:23.320
+!MESSAGE buffering callback sts4.classpath.VAaPUxZv OneToManyOrM2One false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-05 18:43:23.332
+!MESSAGE Preparing classpath changed notification OneToOneShareSamePk1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-05 18:43:23.340
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-05 18:43:23.350
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-05 18:43:23.356
+!MESSAGE buffering callback sts4.classpath.VAaPUxZv OneToOneShareSamePk1 false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-05 18:43:23.360
+!MESSAGE Preparing classpath changed notification TwoDiffClassOneTable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-05 18:43:23.360
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-05 18:43:23.370
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-05 18:43:23.370
+!MESSAGE buffering callback sts4.classpath.VAaPUxZv TwoDiffClassOneTable false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-05 18:43:23.380
+!MESSAGE executing callback sts4.classpath.VAaPUxZv 14 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-05 18:43:23.505
+!MESSAGE executing callback sts4.classpath.VAaPUxZv SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 09:19:01.067
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.VAaPUxZv
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 09:19:01.230
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.VAaPUxZv
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 09:19:01.236
+!MESSAGE subsribers = {sts4.classpath.iQFREysX=Send Classpath Notifications(8465)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 09:19:01.236
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.VAaPUxZv => OK
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-04-06 09:19:34.019
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.equinox.internal.p2.transport.ecf.FileReader$CancelHandler
+!SESSION 2020-04-06 12:26:45.166 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=1.8.0_241
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data E:\eclipsejee2019-06-hibernate -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2020-04-06 12:27:40.567
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface 2 0 2020-04-06 12:27:43.090
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-04-06 12:27:43.090
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1f2d0ca2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@e353e1d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:28:39.335
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:28:39.356
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@1922f750[org.springframework.tooling.boot.ls:1.14.0.201912170939(id=1028)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:28:39.393
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:28:40.065
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-04-06 12:28:41.505
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\niles'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-04-06 12:28:57.921
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-04-06 12:28:58.033
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:00.077
+!MESSAGE Boot LS startup time from start to initialized: 20631ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:03.963
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.KAUIRzJoisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:04.035
+!MESSAGE subscribing to classpath changes: sts4.classpath.KAUIRzJo isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:04.046
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:04.180
+!MESSAGE subsribers = {sts4.classpath.KAUIRzJo=Send Classpath Notifications(636)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:04.276
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:04.440
+!MESSAGE project JoinsInHibernateHQL ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:04.515
+!MESSAGE Preparing classpath changed notification JoinsInHibernateHQL
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:04.635
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:04.671
+!MESSAGE project AnnotationCompoundEmbeddedId ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:04.694
+!MESSAGE project AnnotationTableGenerator ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:04.732
+!MESSAGE project HBQueryLanguage ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:04.740
+!MESSAGE project HelloMessageAnnotation ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:04.748
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:04.822
+!MESSAGE buffering callback sts4.classpath.KAUIRzJo JoinsInHibernateHQL false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:04.882
+!MESSAGE project HelloMessageConsole ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:04.949
+!MESSAGE Preparing classpath changed notification AnnotationCompoundEmbeddedId
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.000
+!MESSAGE project HibernateCRUDOperation ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.009
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.020
+!MESSAGE project HibernateHelloMessageBy-MySql-XML ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.031
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.039
+!MESSAGE project InheritanceClassHierarchy ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.049
+!MESSAGE buffering callback sts4.classpath.KAUIRzJo AnnotationCompoundEmbeddedId false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.057
+!MESSAGE project ManyToMany ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.064
+!MESSAGE Preparing classpath changed notification AnnotationTableGenerator
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.073
+!MESSAGE project OneClassTwoDiffTable ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.080
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.088
+!MESSAGE project OneToManyOrM2One ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.096
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.103
+!MESSAGE project OneToOneShareSamePk1 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.110
+!MESSAGE buffering callback sts4.classpath.KAUIRzJo AnnotationTableGenerator false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.117
+!MESSAGE project Servers ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.125
+!MESSAGE Preparing classpath changed notification HBQueryLanguage
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.132
+!MESSAGE project Servers SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.139
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.145
+!MESSAGE project TwoDiffClassOneTable ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.152
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.158
+!MESSAGE project attendancelookup ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.163
+!MESSAGE buffering callback sts4.classpath.KAUIRzJo HBQueryLanguage false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.168
+!MESSAGE project attendancelookup SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.173
+!MESSAGE Preparing classpath changed notification HelloMessageAnnotation
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.180
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.184
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.190
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.KAUIRzJo => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.197
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.203
+!MESSAGE buffering callback sts4.classpath.KAUIRzJo HelloMessageAnnotation false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.211
+!MESSAGE Preparing classpath changed notification HelloMessageConsole
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.216
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.223
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.275
+!MESSAGE buffering callback sts4.classpath.KAUIRzJo HelloMessageConsole false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.280
+!MESSAGE Preparing classpath changed notification HibernateCRUDOperation
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.285
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.292
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.298
+!MESSAGE buffering callback sts4.classpath.KAUIRzJo HibernateCRUDOperation false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.303
+!MESSAGE Preparing classpath changed notification HibernateHelloMessageBy-MySql-XML
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.309
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.316
+!MESSAGE classpath=72 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.322
+!MESSAGE buffering callback sts4.classpath.KAUIRzJo HibernateHelloMessageBy-MySql-XML false 72
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.328
+!MESSAGE Preparing classpath changed notification InheritanceClassHierarchy
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.334
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.342
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.349
+!MESSAGE buffering callback sts4.classpath.KAUIRzJo InheritanceClassHierarchy false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.354
+!MESSAGE Preparing classpath changed notification ManyToMany
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.359
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.367
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.373
+!MESSAGE buffering callback sts4.classpath.KAUIRzJo ManyToMany false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.378
+!MESSAGE Preparing classpath changed notification OneClassTwoDiffTable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.384
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.391
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.398
+!MESSAGE buffering callback sts4.classpath.KAUIRzJo OneClassTwoDiffTable false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.404
+!MESSAGE Preparing classpath changed notification OneToManyOrM2One
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.409
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.415
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.422
+!MESSAGE buffering callback sts4.classpath.KAUIRzJo OneToManyOrM2One false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.426
+!MESSAGE Preparing classpath changed notification OneToOneShareSamePk1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.432
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.440
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.446
+!MESSAGE buffering callback sts4.classpath.KAUIRzJo OneToOneShareSamePk1 false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.452
+!MESSAGE Preparing classpath changed notification TwoDiffClassOneTable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.459
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.466
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.474
+!MESSAGE buffering callback sts4.classpath.KAUIRzJo TwoDiffClassOneTable false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.479
+!MESSAGE executing callback sts4.classpath.KAUIRzJo 14 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 12:29:05.608
+!MESSAGE executing callback sts4.classpath.KAUIRzJo SUCCESS [done]
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2020-04-06 12:53:36.987
+!MESSAGE Connection to http://jope.ow2.org/update/jope/site.xml failed on jope.ow2.org. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: jope.ow2.org
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(Unknown Source)
+	at java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:373)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:394)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1000)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:992)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:988)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2020-04-06 12:53:37.222
+!MESSAGE Unknown Host: http://jope.ow2.org/update/jope/site.xml
+!STACK 0
+java.net.UnknownHostException: jope.ow2.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:373)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:394)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1000)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:992)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:988)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2020-04-06 12:54:14.679
+!MESSAGE Connection to http://jope.ow2.org/update/jope/site.xml failed on jope.ow2.org. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: jope.ow2.org
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(Unknown Source)
+	at java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:373)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:394)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1000)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:992)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:988)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:10:56.730
+!MESSAGE Preparing classpath changed notification QueryInterface
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:10:56.824
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:10:56.839
+!MESSAGE classpath=20 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:10:56.839
+!MESSAGE buffering callback sts4.classpath.KAUIRzJo QueryInterface false 20
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:10:56.855
+!MESSAGE executing callback sts4.classpath.KAUIRzJo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:10:56.871
+!MESSAGE executing callback sts4.classpath.KAUIRzJo SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:11:07.469
+!MESSAGE Preparing classpath changed notification QueryInterface
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:11:07.562
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:11:07.578
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:11:07.594
+!MESSAGE buffering callback sts4.classpath.KAUIRzJo QueryInterface false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:11:07.609
+!MESSAGE executing callback sts4.classpath.KAUIRzJo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:11:07.609
+!MESSAGE executing callback sts4.classpath.KAUIRzJo SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:12:17.516
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.KAUIRzJo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:12:17.532
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.KAUIRzJo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:12:17.547
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:12:17.547
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.KAUIRzJo => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:53.539
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:53.557
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@1922f750[org.springframework.tooling.boot.ls:1.14.0.201912170939(id=1028)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:53.575
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.176
+!MESSAGE Boot LS startup time from start to initialized: 5589ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.223
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.GsGsjYewisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.238
+!MESSAGE subscribing to classpath changes: sts4.classpath.GsGsjYew isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.238
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.254
+!MESSAGE subsribers = {sts4.classpath.GsGsjYew=Send Classpath Notifications(1053)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.270
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.270
+!MESSAGE project QueryInterface ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.285
+!MESSAGE Preparing classpath changed notification QueryInterface
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.285
+!MESSAGE project AnnotationCompoundEmbeddedId ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.301
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.301
+!MESSAGE project AnnotationTableGenerator ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.301
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.316
+!MESSAGE project HBQueryLanguage ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.316
+!MESSAGE buffering callback sts4.classpath.GsGsjYew QueryInterface false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.316
+!MESSAGE project HelloMessageAnnotation ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.332
+!MESSAGE Preparing classpath changed notification AnnotationCompoundEmbeddedId
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.332
+!MESSAGE project HelloMessageConsole ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.332
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.332
+!MESSAGE project HibernateCRUDOperation ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.348
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.348
+!MESSAGE project HibernateHelloMessageBy-MySql-XML ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.348
+!MESSAGE buffering callback sts4.classpath.GsGsjYew AnnotationCompoundEmbeddedId false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.363
+!MESSAGE project InheritanceClassHierarchy ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.363
+!MESSAGE Preparing classpath changed notification AnnotationTableGenerator
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.363
+!MESSAGE project JoinsInHibernateHQL ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.379
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.379
+!MESSAGE project ManyToMany ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.379
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.395
+!MESSAGE project OneClassTwoDiffTable ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.395
+!MESSAGE buffering callback sts4.classpath.GsGsjYew AnnotationTableGenerator false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.395
+!MESSAGE project OneToManyOrM2One ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.395
+!MESSAGE Preparing classpath changed notification HBQueryLanguage
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.410
+!MESSAGE project OneToOneShareSamePk1 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.410
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.410
+!MESSAGE project Servers ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.426
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.426
+!MESSAGE project Servers SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.426
+!MESSAGE buffering callback sts4.classpath.GsGsjYew HBQueryLanguage false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.441
+!MESSAGE project TwoDiffClassOneTable ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.441
+!MESSAGE Preparing classpath changed notification HelloMessageAnnotation
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.441
+!MESSAGE project attendancelookup ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.457
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.457
+!MESSAGE project attendancelookup SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.457
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.457
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.473
+!MESSAGE buffering callback sts4.classpath.GsGsjYew HelloMessageAnnotation false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.473
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.GsGsjYew => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.473
+!MESSAGE Preparing classpath changed notification HelloMessageConsole
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.488
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.488
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.504
+!MESSAGE buffering callback sts4.classpath.GsGsjYew HelloMessageConsole false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.504
+!MESSAGE Preparing classpath changed notification HibernateCRUDOperation
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.504
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.519
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.519
+!MESSAGE buffering callback sts4.classpath.GsGsjYew HibernateCRUDOperation false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.519
+!MESSAGE Preparing classpath changed notification HibernateHelloMessageBy-MySql-XML
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.535
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.535
+!MESSAGE classpath=72 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.535
+!MESSAGE buffering callback sts4.classpath.GsGsjYew HibernateHelloMessageBy-MySql-XML false 72
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.551
+!MESSAGE Preparing classpath changed notification InheritanceClassHierarchy
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.551
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.551
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.566
+!MESSAGE buffering callback sts4.classpath.GsGsjYew InheritanceClassHierarchy false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.566
+!MESSAGE Preparing classpath changed notification JoinsInHibernateHQL
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.566
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.582
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.582
+!MESSAGE buffering callback sts4.classpath.GsGsjYew JoinsInHibernateHQL false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.582
+!MESSAGE Preparing classpath changed notification ManyToMany
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.598
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.598
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.598
+!MESSAGE buffering callback sts4.classpath.GsGsjYew ManyToMany false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.613
+!MESSAGE Preparing classpath changed notification OneClassTwoDiffTable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.613
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.613
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.629
+!MESSAGE buffering callback sts4.classpath.GsGsjYew OneClassTwoDiffTable false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.629
+!MESSAGE Preparing classpath changed notification OneToManyOrM2One
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.644
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.644
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.644
+!MESSAGE buffering callback sts4.classpath.GsGsjYew OneToManyOrM2One false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.660
+!MESSAGE Preparing classpath changed notification OneToOneShareSamePk1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.660
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.660
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.676
+!MESSAGE buffering callback sts4.classpath.GsGsjYew OneToOneShareSamePk1 false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.676
+!MESSAGE Preparing classpath changed notification TwoDiffClassOneTable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.676
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.691
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.691
+!MESSAGE buffering callback sts4.classpath.GsGsjYew TwoDiffClassOneTable false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.691
+!MESSAGE executing callback sts4.classpath.GsGsjYew 15 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-06 18:13:59.769
+!MESSAGE executing callback sts4.classpath.GsGsjYew SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2020-04-06 18:19:45.560
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.lsp4e 4 0 2020-04-06 19:07:40.016
+!MESSAGE 
+!STACK 0
+java.lang.InterruptedException
+	at java.util.concurrent.CompletableFuture.reportGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.springframework.tooling.boot.ls.jdt.LSPTextHover.getHoverInfo(LSPTextHover.java:109)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo2(SpringBootJavaHoverProvider.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-07 00:42:53.920
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.GsGsjYew
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-07 00:42:54.014
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.GsGsjYew
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-07 00:42:54.029
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-07 00:42:54.029
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.GsGsjYew => OK
+!SESSION 2021-03-04 11:17:27.913 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=1.8.0_241
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2021-03-04 11:19:26.012
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-03-04 11:19:26.012
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4f03729f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7d7f49f3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-03-04 11:20:24.415
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\niles'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:20:24.668
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:20:24.683
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@6a316f41[org.springframework.tooling.boot.ls:1.14.0.201912170939(id=1028)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:20:24.729
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:20:24.938
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.jst.j2ee 4 0 2021-03-04 11:20:46.481
+!MESSAGE C:\Users\niles\.m2\repository\net\bytebuddy\byte-buddy\1.9.11\byte-buddy-1.9.11.jar
+!STACK 0
+org.eclipse.jst.jee.archive.ArchiveOpenFailureException: C:\Users\niles\.m2\repository\net\bytebuddy\byte-buddy\1.9.11\byte-buddy-1.9.11.jar
+	at org.eclipse.jst.j2ee.internal.componentcore.JavaEEBinaryComponentLoadAdapter.<init>(JavaEEBinaryComponentLoadAdapter.java:56)
+	at org.eclipse.jst.j2ee.internal.archive.JavaEEArchiveUtilities.openBinaryArchive(JavaEEArchiveUtilities.java:254)
+	at org.eclipse.jst.j2ee.internal.componentcore.JavaEEBinaryComponentHelper$ArchiveCache.openArchive(JavaEEBinaryComponentHelper.java:612)
+	at org.eclipse.jst.j2ee.internal.componentcore.JavaEEBinaryComponentHelper.openArchive(JavaEEBinaryComponentHelper.java:470)
+	at org.eclipse.jst.j2ee.internal.componentcore.JavaEEBinaryComponentHelper.getUniqueArchive(JavaEEBinaryComponentHelper.java:422)
+	at org.eclipse.jst.j2ee.internal.componentcore.JavaEEBinaryComponentHelper.getArchive(JavaEEBinaryComponentHelper.java:415)
+	at org.eclipse.jst.j2ee.internal.componentcore.JavaEEBinaryComponentHelper.getJavaEEQuickPeek(JavaEEBinaryComponentHelper.java:98)
+	at org.eclipse.jst.j2ee.project.JavaEEProjectUtilities.getJ2EEComponentType(JavaEEProjectUtilities.java:273)
+	at org.eclipse.jst.j2ee.internal.common.exportmodel.JEEHeirarchyExportParticipant.isChildModule(JEEHeirarchyExportParticipant.java:42)
+	at org.eclipse.wst.common.componentcore.internal.flat.GlobalHeirarchyParticipant.isChildModule(GlobalHeirarchyParticipant.java:41)
+	at org.eclipse.wst.common.componentcore.internal.flat.FlatVirtualComponent.isChildModule(FlatVirtualComponent.java:367)
+	at org.eclipse.wst.common.componentcore.internal.flat.FlatVirtualComponent.addUsedReferences(FlatVirtualComponent.java:305)
+	at org.eclipse.wst.common.componentcore.internal.flat.FlatVirtualComponent.treeWalk(FlatVirtualComponent.java:235)
+	at org.eclipse.wst.common.componentcore.internal.flat.FlatVirtualComponent.cacheResources(FlatVirtualComponent.java:188)
+	at org.eclipse.wst.common.componentcore.internal.flat.FlatVirtualComponent.getChildModules(FlatVirtualComponent.java:160)
+	at org.eclipse.wst.web.internal.deployables.FlatComponentDeployable.getExportModelChildren(FlatComponentDeployable.java:261)
+	at org.eclipse.wst.web.internal.deployables.FlatComponentDeployable.getModules(FlatComponentDeployable.java:272)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServer.getChildModules(TomcatServer.java:388)
+	at org.eclipse.wst.server.core.internal.Server.getChildModules(Server.java:2649)
+	at org.eclipse.wst.server.core.internal.Server.visitModule(Server.java:3070)
+	at org.eclipse.wst.server.core.internal.Server.visit(Server.java:3051)
+	at org.eclipse.wst.server.core.internal.Server.isPublishUnknown(Server.java:1271)
+	at org.eclipse.wst.server.ui.internal.cnf.ServerDecorator.getServerStatusLabel(ServerDecorator.java:142)
+	at org.eclipse.wst.server.ui.internal.cnf.ServerDecorator.decorate(ServerDecorator.java:75)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:251)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:333)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.FileNotFoundException: C:\Users\niles\.m2\repository\net\bytebuddy\byte-buddy\1.9.11\byte-buddy-1.9.11.jar (The system cannot find the path specified)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at org.eclipse.jst.common.internal.modulecore.util.ManifestUtilities$1.<init>(ManifestUtilities.java:259)
+	at org.eclipse.jst.common.internal.modulecore.util.ManifestUtilities.newZipFile(ManifestUtilities.java:259)
+	at org.eclipse.jst.jee.archive.internal.ArchiveUtil.newZipFile(ArchiveUtil.java:248)
+	at org.eclipse.jst.jee.archive.internal.ArchiveUtil.newZipFile(ArchiveUtil.java:234)
+	at org.eclipse.jst.j2ee.internal.componentcore.JavaEEBinaryComponentLoadAdapter.resetZipFile(JavaEEBinaryComponentLoadAdapter.java:67)
+	at org.eclipse.jst.j2ee.internal.componentcore.JavaEEBinaryComponentLoadAdapter.<init>(JavaEEBinaryComponentLoadAdapter.java:51)
+	... 31 more
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:15.310
+!MESSAGE Boot LS startup time from start to initialized: 50517ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.133
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.sQaSiHncisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.159
+!MESSAGE subscribing to classpath changes: sts4.classpath.sQaSiHnc isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.188
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.203
+!MESSAGE subsribers = {sts4.classpath.sQaSiHnc=Send Classpath Notifications(943)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.216
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.226
+!MESSAGE project QueryInterface ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.235
+!MESSAGE project AnnotationCompoundEmbeddedId ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.240
+!MESSAGE Preparing classpath changed notification QueryInterface
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.250
+!MESSAGE project AnnotationTableGenerator ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.261
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.270
+!MESSAGE project HBQueryLanguage ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.279
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.288
+!MESSAGE project HelloMessageAnnotation ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.297
+!MESSAGE project HelloMessageConsole ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.308
+!MESSAGE buffering callback sts4.classpath.sQaSiHnc QueryInterface false 40
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.315
+!MESSAGE project HibernateCRUDOperation ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.324
+!MESSAGE Preparing classpath changed notification AnnotationCompoundEmbeddedId
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.327
+!MESSAGE project HibernateHelloMessageBy-MySql-XML ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.343
+!MESSAGE project InheritanceClassHierarchy ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.343
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.358
+!MESSAGE project JoinsInHibernateHQL ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.358
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.381
+!MESSAGE project ManyToMany ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.391
+!MESSAGE buffering callback sts4.classpath.sQaSiHnc AnnotationCompoundEmbeddedId false 40
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.401
+!MESSAGE project OneClassTwoDiffTable ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.407
+!MESSAGE Preparing classpath changed notification AnnotationTableGenerator
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.420
+!MESSAGE project OneToManyOrM2One ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.429
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.436
+!MESSAGE project OneToOneShareSamePk1 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.449
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.458
+!MESSAGE project Servers ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.466
+!MESSAGE buffering callback sts4.classpath.sQaSiHnc AnnotationTableGenerator false 40
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.477
+!MESSAGE project Servers SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.486
+!MESSAGE Preparing classpath changed notification HBQueryLanguage
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.495
+!MESSAGE project TwoDiffClassOneTable ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.503
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.510
+!MESSAGE project attendancelookup ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.524
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.533
+!MESSAGE project attendancelookup SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.544
+!MESSAGE buffering callback sts4.classpath.sQaSiHnc HBQueryLanguage false 40
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.552
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.562
+!MESSAGE Preparing classpath changed notification HelloMessageAnnotation
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.568
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.sQaSiHnc => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.575
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.590
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.599
+!MESSAGE buffering callback sts4.classpath.sQaSiHnc HelloMessageAnnotation false 40
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.609
+!MESSAGE Preparing classpath changed notification HelloMessageConsole
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.615
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.627
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.637
+!MESSAGE buffering callback sts4.classpath.sQaSiHnc HelloMessageConsole false 40
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.644
+!MESSAGE Preparing classpath changed notification HibernateCRUDOperation
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.653
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.661
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.671
+!MESSAGE buffering callback sts4.classpath.sQaSiHnc HibernateCRUDOperation false 40
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.678
+!MESSAGE Preparing classpath changed notification HibernateHelloMessageBy-MySql-XML
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.685
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.693
+!MESSAGE classpath=72 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.703
+!MESSAGE buffering callback sts4.classpath.sQaSiHnc HibernateHelloMessageBy-MySql-XML false 71
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.710
+!MESSAGE Preparing classpath changed notification InheritanceClassHierarchy
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.718
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.726
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.734
+!MESSAGE buffering callback sts4.classpath.sQaSiHnc InheritanceClassHierarchy false 40
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.741
+!MESSAGE Preparing classpath changed notification JoinsInHibernateHQL
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.741
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.763
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.771
+!MESSAGE buffering callback sts4.classpath.sQaSiHnc JoinsInHibernateHQL false 40
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.771
+!MESSAGE Preparing classpath changed notification ManyToMany
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.786
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.804
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.815
+!MESSAGE buffering callback sts4.classpath.sQaSiHnc ManyToMany false 40
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.828
+!MESSAGE Preparing classpath changed notification OneClassTwoDiffTable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.840
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.850
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.866
+!MESSAGE buffering callback sts4.classpath.sQaSiHnc OneClassTwoDiffTable false 40
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.874
+!MESSAGE Preparing classpath changed notification OneToManyOrM2One
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.885
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.892
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.906
+!MESSAGE buffering callback sts4.classpath.sQaSiHnc OneToManyOrM2One false 40
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.914
+!MESSAGE Preparing classpath changed notification OneToOneShareSamePk1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.925
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.934
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.946
+!MESSAGE buffering callback sts4.classpath.sQaSiHnc OneToOneShareSamePk1 false 40
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.957
+!MESSAGE Preparing classpath changed notification TwoDiffClassOneTable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.968
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.979
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.987
+!MESSAGE buffering callback sts4.classpath.sQaSiHnc TwoDiffClassOneTable false 40
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:16.995
+!MESSAGE executing callback sts4.classpath.sQaSiHnc 15 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:19.048
+!MESSAGE executing callback sts4.classpath.sQaSiHnc FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2021-03-04 11:21:19.056
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:197)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:168)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.197
+!MESSAGE Preparing classpath changed notification AnnotationCompoundEmbeddedId
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.209
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.221
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.232
+!MESSAGE buffering callback sts4.classpath.sQaSiHnc AnnotationCompoundEmbeddedId false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.232
+!MESSAGE Preparing classpath changed notification AnnotationTableGenerator
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.250
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.259
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.268
+!MESSAGE buffering callback sts4.classpath.sQaSiHnc AnnotationTableGenerator false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.278
+!MESSAGE Preparing classpath changed notification HBQueryLanguage
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.287
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.294
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.303
+!MESSAGE buffering callback sts4.classpath.sQaSiHnc HBQueryLanguage false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.311
+!MESSAGE Preparing classpath changed notification HelloMessageAnnotation
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.318
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.321
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.340
+!MESSAGE buffering callback sts4.classpath.sQaSiHnc HelloMessageAnnotation false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.352
+!MESSAGE Preparing classpath changed notification HelloMessageConsole
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.357
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.376
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.391
+!MESSAGE buffering callback sts4.classpath.sQaSiHnc HelloMessageConsole false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.402
+!MESSAGE Preparing classpath changed notification HibernateCRUDOperation
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.413
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.426
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.439
+!MESSAGE buffering callback sts4.classpath.sQaSiHnc HibernateCRUDOperation false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.448
+!MESSAGE Preparing classpath changed notification HibernateHelloMessageBy-MySql-XML
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.454
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.462
+!MESSAGE classpath=72 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.470
+!MESSAGE buffering callback sts4.classpath.sQaSiHnc HibernateHelloMessageBy-MySql-XML false 72
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.477
+!MESSAGE Preparing classpath changed notification InheritanceClassHierarchy
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.486
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.497
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.503
+!MESSAGE buffering callback sts4.classpath.sQaSiHnc InheritanceClassHierarchy false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.511
+!MESSAGE Preparing classpath changed notification JoinsInHibernateHQL
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.549
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.564
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.580
+!MESSAGE buffering callback sts4.classpath.sQaSiHnc JoinsInHibernateHQL false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.580
+!MESSAGE Preparing classpath changed notification ManyToMany
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.599
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.611
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.612
+!MESSAGE buffering callback sts4.classpath.sQaSiHnc ManyToMany false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.628
+!MESSAGE Preparing classpath changed notification OneClassTwoDiffTable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.640
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.655
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.655
+!MESSAGE buffering callback sts4.classpath.sQaSiHnc OneClassTwoDiffTable false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.675
+!MESSAGE Preparing classpath changed notification OneToManyOrM2One
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.715
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.734
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.746
+!MESSAGE buffering callback sts4.classpath.sQaSiHnc OneToManyOrM2One false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.757
+!MESSAGE Preparing classpath changed notification OneToOneShareSamePk1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.757
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.773
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.789
+!MESSAGE buffering callback sts4.classpath.sQaSiHnc OneToOneShareSamePk1 false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.789
+!MESSAGE Preparing classpath changed notification QueryInterface
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.804
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.820
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.836
+!MESSAGE buffering callback sts4.classpath.sQaSiHnc QueryInterface false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.847
+!MESSAGE Preparing classpath changed notification TwoDiffClassOneTable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.848
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.873
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.890
+!MESSAGE buffering callback sts4.classpath.sQaSiHnc TwoDiffClassOneTable false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.904
+!MESSAGE executing callback sts4.classpath.sQaSiHnc 15 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:21:52.945
+!MESSAGE executing callback sts4.classpath.sQaSiHnc SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-03-04 11:21:54.615
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-03-04 11:21:54.643
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:22:49.279
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.sQaSiHnc
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:22:49.279
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.sQaSiHnc
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:22:49.295
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:22:49.295
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.sQaSiHnc => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:17.889
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:17.899
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@6a316f41[org.springframework.tooling.boot.ls:1.14.0.201912170939(id=1028)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:17.907
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:21.662
+!MESSAGE Boot LS startup time from start to initialized: 3750ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:21.696
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.kCKGjcsKisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:21.706
+!MESSAGE subscribing to classpath changes: sts4.classpath.kCKGjcsK isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:21.715
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:21.725
+!MESSAGE subsribers = {sts4.classpath.kCKGjcsK=Send Classpath Notifications(989)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:21.734
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:21.744
+!MESSAGE project HelloMessageAnnotation ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:21.748
+!MESSAGE Preparing classpath changed notification HelloMessageAnnotation
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:21.764
+!MESSAGE project AnnotationCompoundEmbeddedId ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:21.766
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:21.774
+!MESSAGE project AnnotationTableGenerator ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:21.779
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:21.785
+!MESSAGE project HBQueryLanguage ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:21.792
+!MESSAGE buffering callback sts4.classpath.kCKGjcsK HelloMessageAnnotation false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:21.798
+!MESSAGE project HelloMessageConsole ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:21.803
+!MESSAGE Preparing classpath changed notification AnnotationCompoundEmbeddedId
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:21.810
+!MESSAGE project HibernateCRUDOperation ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:21.816
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:21.822
+!MESSAGE project HibernateHelloMessageBy-MySql-XML ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:21.830
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:21.834
+!MESSAGE project InheritanceClassHierarchy ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:21.846
+!MESSAGE buffering callback sts4.classpath.kCKGjcsK AnnotationCompoundEmbeddedId false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:21.847
+!MESSAGE project JoinsInHibernateHQL ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:21.858
+!MESSAGE Preparing classpath changed notification AnnotationTableGenerator
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:21.859
+!MESSAGE project ManyToMany ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:21.865
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:21.871
+!MESSAGE project OneClassTwoDiffTable ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:21.877
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:21.884
+!MESSAGE project OneToManyOrM2One ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:21.889
+!MESSAGE buffering callback sts4.classpath.kCKGjcsK AnnotationTableGenerator false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:21.895
+!MESSAGE project OneToOneShareSamePk1 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:21.907
+!MESSAGE Preparing classpath changed notification HBQueryLanguage
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:21.908
+!MESSAGE project QueryInterface ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:21.917
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:21.920
+!MESSAGE project Servers ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:21.926
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:21.935
+!MESSAGE project Servers SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:21.938
+!MESSAGE buffering callback sts4.classpath.kCKGjcsK HBQueryLanguage false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:21.944
+!MESSAGE project TwoDiffClassOneTable ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:21.951
+!MESSAGE Preparing classpath changed notification HelloMessageConsole
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:21.955
+!MESSAGE project attendancelookup ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:21.966
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:21.968
+!MESSAGE project attendancelookup SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:21.973
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:21.984
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:21.985
+!MESSAGE buffering callback sts4.classpath.kCKGjcsK HelloMessageConsole false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:21.990
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.kCKGjcsK => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:21.996
+!MESSAGE Preparing classpath changed notification HibernateCRUDOperation
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:22.008
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:22.016
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:22.023
+!MESSAGE buffering callback sts4.classpath.kCKGjcsK HibernateCRUDOperation false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:22.029
+!MESSAGE Preparing classpath changed notification HibernateHelloMessageBy-MySql-XML
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:22.035
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:22.046
+!MESSAGE classpath=72 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:22.053
+!MESSAGE buffering callback sts4.classpath.kCKGjcsK HibernateHelloMessageBy-MySql-XML false 72
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:22.059
+!MESSAGE Preparing classpath changed notification InheritanceClassHierarchy
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:22.071
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:22.082
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:22.092
+!MESSAGE buffering callback sts4.classpath.kCKGjcsK InheritanceClassHierarchy false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:22.103
+!MESSAGE Preparing classpath changed notification JoinsInHibernateHQL
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:22.115
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:22.124
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:22.137
+!MESSAGE buffering callback sts4.classpath.kCKGjcsK JoinsInHibernateHQL false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:22.148
+!MESSAGE Preparing classpath changed notification ManyToMany
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:22.155
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:22.162
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:22.171
+!MESSAGE buffering callback sts4.classpath.kCKGjcsK ManyToMany false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:22.182
+!MESSAGE Preparing classpath changed notification OneClassTwoDiffTable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:22.189
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:22.196
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:22.203
+!MESSAGE buffering callback sts4.classpath.kCKGjcsK OneClassTwoDiffTable false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:22.212
+!MESSAGE Preparing classpath changed notification OneToManyOrM2One
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:22.218
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:22.225
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:22.234
+!MESSAGE buffering callback sts4.classpath.kCKGjcsK OneToManyOrM2One false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:22.240
+!MESSAGE Preparing classpath changed notification OneToOneShareSamePk1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:22.246
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:22.253
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:22.261
+!MESSAGE buffering callback sts4.classpath.kCKGjcsK OneToOneShareSamePk1 false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:22.268
+!MESSAGE Preparing classpath changed notification QueryInterface
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:22.274
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:22.281
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:22.289
+!MESSAGE buffering callback sts4.classpath.kCKGjcsK QueryInterface false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:22.296
+!MESSAGE Preparing classpath changed notification TwoDiffClassOneTable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:22.302
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:22.310
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:22.320
+!MESSAGE buffering callback sts4.classpath.kCKGjcsK TwoDiffClassOneTable false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:22.327
+!MESSAGE executing callback sts4.classpath.kCKGjcsK 15 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 11:23:22.439
+!MESSAGE executing callback sts4.classpath.kCKGjcsK SUCCESS [done]
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2021-03-04 12:02:37.867
+!MESSAGE Connection to http://jope.ow2.org/update/jope/site.xml failed on jope.ow2.org. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: jope.ow2.org
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(Unknown Source)
+	at java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:374)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1000)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:992)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:988)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2021-03-04 12:02:38.110
+!MESSAGE Unknown Host: http://jope.ow2.org/update/jope/site.xml
+!STACK 0
+java.net.UnknownHostException: jope.ow2.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:374)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1000)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:992)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:988)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2021-03-04 12:06:16.605
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.jboss.org/jbosstools/targetplatforms/jbosstoolstarget/4.12.0.Final-SNAPSHOT/REPO/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:394)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:353)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:244)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:168)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:759)
+	at sun.reflect.GeneratedMethodAccessor103.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:78)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2021-03-04 12:06:16.607
+!MESSAGE No repository found at http://download.jboss.org/jbosstools/targetplatforms/jbosstoolstarget/4.12.0.Final-SNAPSHOT/REPO/.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2021-03-04 12:09:26.233
+!MESSAGE Connection to http://jope.ow2.org/update/jope/site.xml failed on jope.ow2.org. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: jope.ow2.org
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(Unknown Source)
+	at java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:374)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1000)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:992)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:988)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui 2 2 2021-03-04 13:57:21.797
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-03-04 13:57:28.586
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-03-04 13:57:28.622
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!

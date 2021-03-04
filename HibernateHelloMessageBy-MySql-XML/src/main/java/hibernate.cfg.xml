@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>  
+<!DOCTYPE hibernate-configuration PUBLIC  
+          "-//Hibernate/Hibernate Configuration DTD 5.3//EN"  
+          "http://hibernate.sourceforge.net/hibernate-configuration-5.3.dtd">
+          <!-- Hibernate uses the hibernate.cfg.xml file to create the connection and setup the 
+          required enviroment. This file provide info about database connection-->
+<hibernate-configuration>
+	<session-factory>
+		<!-- Database connection settings with MySql -->
+		<property name="connection.dirver_class">com.mysql.jdbc.Driver</property>
+		<property name="connection.utl">jdbc:mysql://localhost:3306/HibernateDb</property>
+		<property name="connection.username">root</property>
+		<property name="connection.password">nilesh</property>
+		
+		<!-- MySql Dialect -->
+		<property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
+		
+		<!-- Mapping Resource -->
+		<mapping resource="message.hbm.xml"></mapping>
+	</session-factory>
+</hibernate-configuration>

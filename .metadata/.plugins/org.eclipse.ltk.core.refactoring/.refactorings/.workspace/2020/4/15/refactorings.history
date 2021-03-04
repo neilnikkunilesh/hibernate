@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;JoinInHQL&apos; to &apos;OneToOneShareSamePk1&apos;" description="Rename resource &apos;JoinInHQL&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/JoinInHQL" name="OneToOneShareSamePk1" stamp="1586092291480" updateReferences="true"/>
+</session>

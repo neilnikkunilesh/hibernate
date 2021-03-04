@@ -1,0 +1,73 @@
+package com.aga.Dao;
+
+import java.util.List;
+
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+
+import com.aga.database.SessionObject;
+import com.aga.pojo.Books;
+
+public class QueryInterfaceMethods {
+	
+	public void createBooks() {
+		System.out.println( "Inside Create Books");
+		Session session=null;
+		Transaction tx =null;
+		Books b1 = new Books(101, "Hibernate", 421, 199, 1001, 1002, 1003, 1004);
+		Books b2 = new Books(102, "Struts", 422, 502, 1001, 1002, 1003, 1004);
+		Books b3 = new Books(103, "JSP", 423, 503, 1011, 1012, 1013, 1014);
+		Books b4 = new Books(104, "Spring", 423, 602, 603, 1011, 1013, 1014);
+		Books b5 = new Books(105, "Oracle", 424, 199, 10101, 10102, 10103, 10104);
+		Books b6 = new Books(106, "PHP", 421, 199, 10123, 10124, 10125, 10126);
+		try
+		{
+			session= SessionObject.getSession();
+			tx = session.beginTransaction();
+			
+			session.save(b1);
+			session.save(b2);
+			session.save(b3);
+			session.save(b4);
+			session.save(b5);
+			session.save(b6);
+			
+			tx.commit();
+			System.out.println("Record Added Sucessfully");
+			
+		}catch (Exception e) {
+			tx.rollback();
+			e.printStackTrace();
+		}finally {
+			session.close();
+		}
+	}
+	
+	public void listDemo() {
+		Session session = null;
+		try {
+			session = SessionObject.getSession();
+			Query q = session.createQuery("FROM Books b");
+			List<Books> list = q.list();
+			
+			for(Books obj : list) {
+				System.out.print(obj.getBookNo()+"		");
+				System.out.print(obj.getBookName()+"		");
+				System.out.print(obj.getPublisherNo()+"		");
+				System.out.print(obj.getCost()+"		");
+				System.out.print(obj.getAuthor1No()+"		");
+				System.out.print(obj.getAuthor2No()+"		");
+				System.out.print(obj.getAuthor3No()+"		");
+				System.out.print(obj.getAuthor4No()+"		");
+				
+				System.out.println();
+			}
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}finally {
+			session.close();
+		}
+	}
+}

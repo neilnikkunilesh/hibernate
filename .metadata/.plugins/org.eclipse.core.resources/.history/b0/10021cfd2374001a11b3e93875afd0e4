@@ -1,0 +1,49 @@
+package com.aga.joined;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.AnnotationConfiguration;
+
+import com.aga.joined.FourWheeler;
+import com.aga.joined.TwoWheeler;
+import com.aga.joined.Vehicle;
+
+public class VehicleTest {
+	public static void main(String args[]) {
+		SessionFactory sf =null;
+		Session session = null;
+		Transaction tx = null;
+		
+		try {
+		sf = new AnnotationConfiguration().configure("hibernate.cfg.xml").buildSessionFactory();
+		session = sf.openSession();
+		tx = session.beginTransaction();
+		
+		Vehicle bus = new Vehicle();
+		bus.setVehicleName("BUS");
+		bus.setVehicleLicenseNo("RJ14-BS-6709");
+		
+		TwoWheeler bike = new TwoWheeler();
+		bike.setVehicleName("BIKE");
+		bike.setVehicleLicenseNo("RJ15-US-2020");
+		bike.setSteeringHandle("Bike Steering Handle");
+		
+		FourWheeler car = new FourWheeler();
+		car.setVehicleName("CAR");
+		car.setVehicleLicenseNo("RJ29-1M-4992");
+		car.setSteeringWheel("Car Steering Wheel");
+		
+		session.save(bus);
+		session.save(bike);
+		session.save(car);
+		
+		session.close();
+		sf.close();
+		}
+		catch(Exception e) {
+			
+			e.printStackTrace();
+		}
+	}
+}

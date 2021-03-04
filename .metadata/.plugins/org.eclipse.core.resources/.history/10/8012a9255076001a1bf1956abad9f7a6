@@ -1,0 +1,108 @@
+/* 
+ 	NOTE: by default, the order is ascending.
+ 	
+ 	The Ordering can be specified on more than one property in the query such as.
+ 	FROM MessageSQL m ORDER BY m.messageId, m.senderName ASC
+ 	
+ 	A query that return aggregated values can be grouped by any property of a returned class or components:
+ 		
+ 		SELECT COUNT(m.senderName) FROM 
+ */
+
+package com.aga;
+
+import java.util.Date;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
+
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.AnnotationConfiguration;
+
+public class MessageHQLOrderByTest {
+	
+	public static void main(String[] args) {
+		SessionFactory sf = null;
+		Session session = null;
+		Transaction tx = null;
+		String query = null;
+		
+		try {
+				// config the db details
+				sf = new AnnotationConfiguration().configure("hibernate.cfg.xml").buildSessionFactory();
+				//get the session using session factory object
+				session = sf.openSession();
+				tx = session.beginTransaction();
+				
+				session = sf.openSession();
+				query = "SELECT m.messageId, m.senderName, COUNT(*) FROM MessageSQL m GROUP BY m.sendDate";
+				Query q = session.createQuery(query);
+				
+				// get List from Query
+				List<Object[]> list = q.list();
+				
+				System.out.println("-----------------------------Use of Group By Clause---------------------------------------");
+				System.out.println("MessageID	SenderName");
+				for(Object[] obj : list) {
+					System.out.print(obj[0]+"		");
+					System.out.print(obj[1]+"		");
+					
+					System.out.println();
+				}
+				
+				System.out.println("-----------------------------Order By operator---------------------------------------");
+				
+				Query order_query= session.createQuery("FROM  MessageSQL m ORDER BY m.sendDate DESC, c.senderName ASC ");
+				List<Object[]> order = order_query.list();
+				System.out.println("MessageID	SenderName		SendDate");
+				for(Object[] obj : order) {
+					System.out.print(obj[0]+"		");
+					System.out.print(obj[1]+"		");
+					System.out.print(obj[2]+"		");
+					
+					System.out.println();
+				}
+				
+				// use of HQL id property which can be used to reference the unique identifier of an object
+				System.out.println("-----------------------------Use of ID propery of HQL ---------------------------------------");
+				
+				Query id_query= session.createQuery("SELECT m.messageId, m.senderName, m.sendDate FROM MessageSQL m "
+						+ "WHERE m.id =4");
+				List<Object[]> id = id_query.list();
+				System.out.println("MessageID	SenderName		SendDate");
+				for(Object[] obj : id) {
+					System.out.print(obj[0]+"		");
+					System.out.print(obj[1]+"		");
+					System.out.print(obj[2]+"		");
+					
+					System.out.println();
+				}
+				
+System.out.println("-----------------------------Use of IN operator of HQL ---------------------------------------");
+				
+				Query in_query= session.createQuery("SELECT m.messageId, m.senderName, m.sendDate FROM MessageSQL m "
+						+ "WHERE m.senderName IN ('Kinson Black','Rajesh Kotil')");
+				List<Object[]> in = in_query.list();
+				System.out.println("MessageID	SenderName		SendDate");
+				for(Object[] obj : in) {
+					System.out.print(obj[0]+"		");
+					System.out.print(obj[1]+"		");
+					System.out.print(obj[2]+"		");
+					
+					System.out.println();
+				}
+				
+				session.close();
+				sf.close();
+		} catch (Exception e) {
+			tx.rollback();
+			e.printStackTrace();
+		}
+		
+
+	}
+
+}

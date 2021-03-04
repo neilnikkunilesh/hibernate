@@ -1,0 +1,24 @@
+package com.aga.database;
+
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.AnnotationConfiguration;
+
+public class SessionObject {
+	public static Session getSession() {
+		SessionFactory sf = null;
+		Session session = null;
+		try {
+			sf	=	new	AnnotationConfiguration().configure("hibernate.cfg.xml").buildSessionFactory();
+			if(session ==null) {
+				session = (Session) sf.openSession();
+			}
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		
+		return session;
+		
+	}
+}

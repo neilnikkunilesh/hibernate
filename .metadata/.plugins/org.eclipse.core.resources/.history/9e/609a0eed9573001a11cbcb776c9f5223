@@ -1,0 +1,31 @@
+package com.aga;
+
+import javax.persistence.CascadeType;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToOne;
+import javax.persistence.PrimaryKeyJoinColumn;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "StudentMto1")
+public class StudentMto1 {
+
+	@Id
+	@GeneratedValue
+	@Column(name = "STUDENT_ID")
+	private long studentId;
+	
+	@Column(name = "STUDENT_NAME", length = 100, nullable = false)
+	private String studentName;
+	
+	
+
+	public StudentMto1() {
+		
+	}
+	
+}

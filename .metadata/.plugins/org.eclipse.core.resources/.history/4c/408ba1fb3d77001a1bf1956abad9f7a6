@@ -1,0 +1,92 @@
+/*	
+ * @author Nilesh Gupta
+ * @version 1.0
+ * @since 26--3-2020
+ * */
+package com.aga.Dao;
+
+import java.util.List;
+
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.AnnotationConfiguration;
+
+import com.aga.pojo.Authors;
+import com.aga.pojo.Books;
+
+public class ImplicitAndExplicitJoin {
+	public static void main(String[] args) {
+		SessionFactory sf = null;
+		Session session	=	null;
+		Transaction tx	=	null;
+		
+		try {
+			sf	=	new	AnnotationConfiguration().configure("hibernate.cfg.xml").buildSessionFactory();
+			session = sf.openSession();
+			tx	=	session.beginTransaction();
+			/*
+			 	<b>Explicit Joins:-</b> In the BookAuthorInsertDataTest.java, JOIN keywords was used to join associated objects.
+			 	This kind of join is knows as Explicit Joins. This is the most recommended form.
+			 	## FROM Books b JOIN b.authors a WHERE a.authorName= 'Amish Tripathi';
+			 	
+			 	,b>Implicit Join:</b>
+			 	In the Implicit Join, the JOIN keywords is missing i.e. the JOIN keyword is not used. The associations are
+			 	dereferenced using the dot notation. The associations are referenced by its name directly.
+			 	
+			 	## FROM Books b WHERE b.authors.authorName = 'Amish Tripathi'
+			 	
+			 	In case of an implicit join, the result contains A LIST DSOF BOOKS OBJECTS ONLY since no JOIN is specified in FROM Clause.
+			 	NOTE: If the same collection is navigated for two times, the same table will also be joined two times.
+			 		e.g. : FROM Books b WHERE b.authors.authorName = 'Amish Tripathi' AND b.authors.email = 'amish@books.com'
+			 	So, be careful while using implicit joins with collection association.
+			 */
+				System.out.println("------------------------- Implicit Join -------------------------");
+				// Implicit join, the result contains a list of books objects only since no JOIN is specified in the FROM Clause.
+				
+				Query q	= session.createQuery("FROM Books b WHERE b.authors.authorName='Amish Tripathi'");
+				List<Books> list = q.list();
+				
+				for(Books obj : list) {
+					System.out.print(obj.getBookNo()+"	");
+					System.out.print(obj.getBookName()+"	");
+					System.out.print(obj.getIsbn()+"	");
+					System.out.print(obj.getAuthors().getAuthorNo()+"	");
+					System.out.print(obj.getAuthors().getAuthorName()+"	");
+					System.out.print(obj.getAuthors().getAddress()+"	");
+					System.out.print(obj.getAuthors().getEmail()+"	");
+					
+					System.out.println();
+				}
+						
+			
+				System.out.println("------------------------- Explict Join -------------------------");
+				// Implicit join, the result contains a list of books objects only since no JOIN is specified in the FROM Clause.
+				
+				Query explictQuery= session.createQuery("FROM Books b JOIN b.authors a WHERE a.authorName='Marcel Proust'");
+				List<Object[]> explicitList = explictQuery.list();
+				
+				for(Object[] book : explicitList) {
+					  Books b = (Books)book[0];
+					  Authors a = (Authors)book[1];
+					  if(b!=null) {
+						  System.out.print(b.getBookNo()+"		");
+						  System.out.print(b.getBookName()+"		");
+						  System.out.print(b.getIsbn()+"		");
+						  System.out.print(b.getAuthors().getAuthorNo()+"		");
+						  System.out.print(b.getAuthors().getAuthorName()+"		");
+						  System.out.print(b.getAuthors().getAddress()+"		");
+						  System.out.print(b.getAuthors().getEmail()+"		");
+						  
+						  System.out.println();
+					  }
+					  
+				  }
+			
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+	}
+}

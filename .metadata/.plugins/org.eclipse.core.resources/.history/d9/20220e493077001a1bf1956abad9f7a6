@@ -1,0 +1,21 @@
+package com.aga.pojo;
+
+import java.util.HashSet;
+import java.util.Set;
+
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.OneToMany;
+
+public class Authors {
+
+	@Id
+	@GeneratedValue
+	private Integer authorNo;
+	private String authorName;
+	private String email;
+	private String address;
+	@OneToMany(mappedBy = "authors")
+	private Set<Books> bookeses = new HashSet<Books>();
+	
+}
